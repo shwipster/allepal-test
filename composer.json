@@ -1,0 +1,25 @@
+{
+    "name": "kristjan/testtask",
+    "description": "Test task for applying for a job at AllePal OU",
+    "type": "project",
+    "scripts": {
+        "test": "phpunit tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kristjan\\Testtask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kristjan Saks"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "^7.1",
+        "symfony/config": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    }
+}
